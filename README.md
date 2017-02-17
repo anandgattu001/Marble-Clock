@@ -2,8 +2,7 @@
 
 Below program uses stacks and queues to simulate the behavior of the marble clock. Integers are used to represent the marbles (that is, marbles are numbered 1, 2, 3, 4, 5, ...). The initial number of marbles used to fill the reservoir is obtained as user input. The Program determines the number of 12-hour cycles the clock goes through before the marbles in the reservoir are back in their original order (relative to the number of input marbles used to fill the reservoir).
 
-Logic:
-
+#Logic:
 1)In order to write the code we created a queue for the reservoir. The marble clock consists of five shallow trays arranged one above the other. The bottom tray (the fifth tray) serves as a marble reservoir.
 
 2)Every minute, a winding mechanism picks up one marble from the bottom tray, carries it to the top of the clock and drops it into the top tray of the clock. As a tray fills up marbles fall through lower level trays as described below.
